@@ -1,34 +1,47 @@
 /* Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Main Styling */
-html,body {
+
+html,
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     padding-bottom: 20px;
 }
+
 p {
     padding: 10px 0 20px 0;
     font-size: 18px;
 }
+
 /* Utility Classes*/
+
 .container {
     margin: auto;
     max-width: 1100px;
     padding: 0 20px;
     overflow: auto;
 }
+
 .text_primary {
     color: #f7c08a;
 }
+
 .btn {
     display: inline-block;
     text-align: center;
@@ -36,111 +49,148 @@ p {
     margin-top: 10px;
     font-size: 18px;
 }
+
 .bg_dark {
     color: white;
     background-color: #333;
 }
+
 .bg_light {
     background-color: white;
-    color: #333;    
+    color: #333;
 }
+
 .bg_primary {
     color: #333;
-    background-color:#f7c08a;
+    background-color: #f7c08a;
 }
+
 .clr {
     clear: both;
 }
+
 i {
     padding-bottom: 20px;
 }
+
 /* Padding */
-.py_2 { padding: 20px 0;}
-.py_3 { padding: 30px 0;}
-.py_4 { padding: 40px 0;}
+
+.py_2 {
+    padding: 20px 0;
+}
+
+.py_3 {
+    padding: 30px 0;
+}
+
+.py_4 {
+    padding: 40px 0;
+}
+
 /* Navbar */
+
 #navbar {
-    padding: 0 20px;  
+    padding: 0 20px;
     background-color: #333;
     height: auto;
 }
+
 .logo {
     float: left;
     padding-bottom: none;
     padding: 7px;
     font-size: 40px;
 }
+
 #navbar ul {
     float: right;
     list-style: none;
 }
+
 #navbar ul li {
     float: left;
 }
+
 #navbar ul li a {
     display: block;
     font-size: 18px;
     padding: 21.5px;
 }
+
 #navbar ul li a:hover,
 #navbar ul li a.current {
     background-color: #444;
-    color: #f7c08a;   
+    color: #f7c08a;
 }
+
 /* Index Page */
 /* Section Showcase */
+
 #showcase {
     height: 600px;
     width: auto;
     line-height: 1.7em;
-    background: url(../images/showcase.jpg) no-repeat center center/cover;    
+    background: url(../images/showcase.jpg) no-repeat center center/cover;
 }
+
 #showcase .showcase_content {
     color: white;
     text-align: center;
     padding-top: 190px;
 }
+
 #showcase .showcase_content h2 {
     font-size: 50px;
 }
+
 #showcase .showcase_content a {
     color: white;
     background-color: #333;
 }
+
 #showcase .showcase_content a:hover {
     color: #333;
     background-color: #f7c08a;
 }
+
 /* Section Info */
+
 #home_info {
     height: 410px;
     width: auto;
     text-align: center;
     line-height: 1.7em;
 }
+
 .info_img {
     float: left;
     background: url(../images/photo-1.jpg) no-repeat center center/cover;
     width: 50%;
     height: 410px;
 }
+
 .info_content {
     padding: 40px 10px;
     width: 50%;
     float: right;
 }
+
 .info_content h1 {
     font-size: 28px;
 }
+
 #home_info .info_content a {
     color: #333;
     background-color: white;
 }
+
 #home_info .info_content a:hover {
     color: #333;
     background-color: #f7c08a;
 }
+
 /* Section Freatures */
+
 .box {
     width: 33.33%;
     height: auto;
@@ -149,13 +199,17 @@ i {
     overflow: auto;
     text-align: center;
 }
+
 #features {
     text-align: center;
 }
+
 #features h1 {
     padding-bottom: 5px;
 }
+
 /* Footer */
+
 #main_footer {
     text-align: center;
     height: 87px;
@@ -163,56 +217,69 @@ i {
     padding: 20px;
     color: white;
 }
+
 #main_footer p {
     padding: 13px 20px;
 }
+
 /* About page*/
 /* About Info*/
+
 .about_info {
     height: 326px;
 }
+
 .info_left {
     width: 50%;
     float: left;
     text-align: left;
 }
+
 .info_left h1 {
     font-size: 34px;
 }
+
 .info_left p {
     font-size: 18px;
     margin: 0em;
 }
-.info_right {   
+
+.info_right {
     width: 50%;
     float: right;
 }
+
 .info_right img {
     display: block;
     margin: auto;
-    width: 70%; 
+    width: 70%;
     border-radius: 50%;
 }
+
 /* Testimonials */
+
 #testimonials {
     padding: 90px 20px;
     height: 100%;
     background: url(../images/test-bg.jpg) no-repeat center center/cover;
 }
+
 #testimonials h1 {
     color: white;
     font-size: 40px;
     text-align: center;
     padding-bottom: 40px;
 }
+
 .testimonial_primary {
     height: 140px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     padding: 20px;
     padding-top: 0em;
     border-radius: 15px;
     opacity: 0.85;
 }
+
 .testimonial_primary img {
     border-radius: 50px;
     float: left;
@@ -221,45 +288,50 @@ i {
     margin-top: 20px;
     margin-right: 20px;
 }
+
 .testimonial_primary p {
     padding: 20px;
 }
+
 /* Contact Page*/
 /* Section Form*/
+
 .contact_form h1 {
     font-size: 40px;
 }
+
 .contact_form p {
     padding-top: 0;
 }
-form input, 
+
+form input,
 textarea {
     padding: 10px;
     margin-bottom: 20px;
     width: 100%;
 }
+
 form label {
     margin-bottom: 5px;
 }
+
 textarea {
     margin-bottom: 10px;
 }
+
 form input:focus,
 textarea:focus {
     outline: none;
     border: #f7c08a;
 }
+
 form a {
     background-color: #333;
 }
+
 form a:hover {
     color: #333;
     background-color: #f7c08a;
 }
+
 /* End of CSS */
-
-
-
-
-
-
