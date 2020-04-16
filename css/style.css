@@ -123,6 +123,15 @@ i {
     color: #f7c08a;
 }
 
+#navbar ul li .arrow_a {
+    padding: 14px;
+    display: none;
+}
+
+#navbar ul li i {
+    padding: 0;
+}
+
 /* Index Page */
 /* Section Showcase */
 

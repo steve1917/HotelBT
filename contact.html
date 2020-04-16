@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 </head>
+
 <body>
     <nav id="navbar">
         <div class="container">
-            <a class="logo" href="index.html">HBT</a>
-            <ul>   
-                <li><a href="index.html">Home</a></li>   
-                <li><a href="about.html">About</a></li>
-                <li><a class="current" href="contact.html">Contact</a></li>
-            </ul>
+            <div class="arrow_div">
+                <a class="logo" href="index.html">HBT</a>
+                <ul class="arrow_ul">
+                    <li><a href="#" class="arrow_a"><i class="fas fa-arrow-circle-down fa-2x"></i></a></li>
+                    <ul class="nested">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="current" href="contact.html">Contact</a></li>
+                    </ul>
+                </ul>
+            </div>
         </div>
     </nav>
     <section class="contact_form py_2">
@@ -36,7 +43,7 @@
     </section>
     <section id="contact_info">
         <div class="container bg_dark">
-            <div class="box">  
+            <div class="box">
                 <i class="fas fa-hotel fa-3x"></i>
                 <h3>Location</h3>
                 <p>50 Main st. Boston MA</p>
@@ -57,4 +64,5 @@
         <p>Hotel BT &copy; 2020, All Rights Reserved</p>
     </footer>
 </body>
+
 </html>
